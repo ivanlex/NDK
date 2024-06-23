@@ -1,13 +1,11 @@
 package com.example.plcremote;
 
-import android.content.res.AssetManager;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.util.Log;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -16,16 +14,6 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import com.example.plcremote.databinding.ActivityMainBinding;
-
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-
-import de.beckhoff.jni.Convert;
-import de.beckhoff.jni.JNIByteBuffer;
-import de.beckhoff.jni.tcads.AdsCallDllFunction;
 
 public class MainActivity extends AppCompatActivity {
 
