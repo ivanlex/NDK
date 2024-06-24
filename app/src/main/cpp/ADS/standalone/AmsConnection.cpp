@@ -3,8 +3,8 @@
    Copyright (c) 2015 - 2022 Beckhoff Automation GmbH & Co. KG
  */
 
-#include "AmsConnection.h"
-#include "Log.h"
+#include "../AmsConnection.h"
+#include "../Log.h"
 
 AmsResponse::AmsResponse()
     : request(nullptr),

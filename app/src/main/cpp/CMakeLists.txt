@@ -25,9 +25,50 @@ project("plcremote")
 # System.loadLibrary() and pass the name of the library defined here;
 # for GameActivity/NativeActivity derived applications, the same library name must be
 # used in the AndroidManifest.xml file.
+
 add_library(${CMAKE_PROJECT_NAME} SHARED
     # List C/C++ source files with relative paths to this CMakeLists.txt.
-    plcremote.cpp)
+        ADS/standalone/AdsLib.cpp
+        ADS/standalone/AmsConnection.cpp
+        ADS/standalone/AmsNetId.cpp
+        ADS/standalone/AmsPort.cpp
+        ADS/standalone/AmsRouter.cpp
+        ADS/standalone/NotificationDispatcher.cpp
+
+        ADS/AdsDef.cpp
+        ADS/AdsDevice.cpp
+        ADS/AdsFile.cpp
+        ADS/AdsLib.cpp
+        ADS/ECatAccess.cpp
+        ADS/Frame.cpp
+        ADS/LicenseAccess.cpp
+        ADS/Log.cpp
+        ADS/RouterAccess.cpp
+        ADS/RTimeAccess.cpp
+        ADS/Sockets.cpp
+
+        ADS/RegistryAccess.cpp
+        ADS/SymbolAccess.cpp
+
+        ADS/bhf/ParameterList.cpp
+
+
+
+
+        JObjAdsDevName.cpp
+        JObjAdsNotificationAttrib.cpp
+        JObjAdsNotificationHeader.cpp
+        JObjAdsState.cpp
+        JObjAdsVersion.cpp
+        JObjAmsAddr.cpp
+        JObjAmsNetId.cpp
+        JObjectBase.cpp
+        JObjJNIBool.cpp
+        JObjJNIByteBuffer.cpp
+        JObjJNILong.cpp
+
+        plcremote.cpp
+)
 
 # Specifies libraries CMake should link to your target library. You
 # can link libraries from various origins, such as libraries defined in this

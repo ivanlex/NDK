@@ -3,8 +3,8 @@
    Copyright (c) 2015 - 2022 Beckhoff Automation GmbH & Co. KG
  */
 
-#include "NotificationDispatcher.h"
-#include "Log.h"
+#include "../NotificationDispatcher.h"
+#include "../Log.h"
 #include <future>
 
 NotificationDispatcher::NotificationDispatcher(DeleteNotificationCallback callback)

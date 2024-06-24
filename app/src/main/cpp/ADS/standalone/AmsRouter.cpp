@@ -3,8 +3,8 @@
    Copyright (c) 2015 - 2022 Beckhoff Automation GmbH & Co. KG
  */
 
-#include "AmsRouter.h"
-#include "Log.h"
+#include "../AmsRouter.h"
+#include "../Log.h"
 
 #include <algorithm>
 

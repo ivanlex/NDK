@@ -4,7 +4,7 @@
  */
 
 #include "AdsLib.h"
-#include "AmsRouter.h"
+#include "../AmsRouter.h"
 
 static AmsRouter& GetRouter()
 {

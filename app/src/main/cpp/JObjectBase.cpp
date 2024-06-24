@@ -157,11 +157,11 @@ void JObjectBase::getJObjectValue(const char* lFieldName,
     }
 }
 
-void JObjectBase::getJObjectValue(const char* lFieldName, int64_t* lValue) {
+void JObjectBase::getJObjectValue(const char* lFieldName, long* lValue) {
     jfieldID lj_FieldId = mEnv->GetFieldID(mJClass, lFieldName, "J");
     if (lj_FieldId != nullptr) {
         *lValue =
-            static_cast<int64_t>(mEnv->GetLongField(mJObject, lj_FieldId));
+            static_cast<long>(mEnv->GetLongField(mJObject, lj_FieldId));
     }
 }
 

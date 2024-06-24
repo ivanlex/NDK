@@ -29,19 +29,9 @@ typedef unsigned int BOOL;
 
 #include "ADS/AdsDef.h"
 
-#ifdef USE_OPENSOURCE_ADSLIB
 typedef long ADS_INT32_OR_LONG;
 typedef unsigned int ADS_NOTIFICATION_USER_HANDLE;
 typedef uint32_t ADS_TIMEOUT;
-#elif defined(POSIX)
-typedef ads_i32 ADS_INT32_OR_LONG;
-typedef ads_ui32 ADS_NOTIFICATION_USER_HANDLE;
-typedef ADS_INT32_OR_LONG ADS_TIMEOUT;
-#else
-typedef long ADS_INT32_OR_LONG;
-typedef unsigned int ADS_NOTIFICATION_USER_HANDLE;
-typedef ADS_INT32_OR_LONG ADS_TIMEOUT;
-#endif
 
 typedef int ads_bool;
 typedef int32_t ads_i32;

@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include "AdsDef.h"
+#include "../AdsDef.h"
 #include <functional>
 #include <sstream>
 #include <map>

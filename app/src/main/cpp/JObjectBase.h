@@ -38,7 +38,7 @@ class JObjectBase {
 #endif
 
     void getJObjectValue(const char* lFieldName, unsigned long* lValue);
-    void getJObjectValue(const char* lFieldName, int64_t* lValue);
+    void getJObjectValue(const char* lFieldName, long* lValue);
 
     void getJObjectValue(const char* lFieldName, float* lValue);
     void getJObjectValue(const char* lFieldName, double* lValue);

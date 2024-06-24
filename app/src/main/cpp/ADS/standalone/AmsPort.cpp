@@ -3,7 +3,7 @@
    Copyright (c) 2015 - 2022 Beckhoff Automation GmbH & Co. KG
  */
 
-#include "AmsPort.h"
+#include "../AmsPort.h"
 
 namespace std
 {

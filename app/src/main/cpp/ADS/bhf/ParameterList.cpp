@@ -5,7 +5,7 @@
  */
 
 #include "ParameterList.h"
-#include "Log.h"
+#include "../Log.h"
 
 namespace bhf
 {
