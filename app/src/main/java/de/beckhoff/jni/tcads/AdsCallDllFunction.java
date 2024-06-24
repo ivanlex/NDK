@@ -751,7 +751,7 @@ public class AdsCallDllFunction {
      */
     static {
         try {
-            System.loadLibrary("AdsToJava-3");
+            System.loadLibrary("plcremote");
         } catch (UnsatisfiedLinkError ex) {
             // We simply did not find the dll
             if (ex.getMessage().equals("no AdsToJava in java.library.path")) {
